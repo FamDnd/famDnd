@@ -1,6 +1,3 @@
--- Set the @now variable to be the current date/time rounded down to the nearest hour
-SET time_zone='America/Toronto';
-
 CREATE TABLE `timeslots` (
     `TimeslotID` int(11) unsigned NOT NULL AUTO_INCREMENT,
     `TimeslotName` varchar(256) NOT NULL,
